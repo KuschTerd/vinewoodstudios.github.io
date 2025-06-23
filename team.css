@@ -1,0 +1,85 @@
+.content {
+  max-width: 960px;
+  margin: 60px auto 80px;
+  padding: 40px 30px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  backdrop-filter: saturate(180%) blur(15px);
+  color: #fff;
+  text-align: center;
+}
+
+.Leaders {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.Leaders > div {
+  background: linear-gradient(135deg, #ff6e40, #ffd600);
+  border-radius: 18px;
+  width: 280px;
+  box-shadow: 0 8px 20px #ff6e40cc;
+  padding: 25px 20px 40px;
+  color: #222;
+  text-align: bottom;
+  position: relative;
+  overflow: hidden;
+  cursor: default;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Leaders > div:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 14px 32px #ffd600dd;
+}
+
+/* Placeholder profile images */
+.Leaders > div::before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: url('https://via.placeholder.com/140') no-repeat center/cover;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.Leaders > div.Props::before {
+  background: url('https://i.imgur.com/yCffgMn.png') no-repeat center/cover;
+}
+
+.Leaders > div:hover::before {
+  transform: translateX(-50%) translateY(-10px) scale(1.05);
+}
+
+.Leaders h3 {
+  margin-top: 200px;
+  margin-bottom: 8px;
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: #222;
+  text-shadow: none;
+}
+
+.Leaders p {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+/* Smaller screens */
+@media (max-width: 900px) {
+  .Leaders > div {
+    width: 90%;
+  }
+}
+

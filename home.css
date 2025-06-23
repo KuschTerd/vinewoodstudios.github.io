@@ -1,0 +1,46 @@
+.content {
+  max-width: 960px;
+  margin: 60px auto 80px;
+  padding: 40px 30px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  backdrop-filter: saturate(180%) blur(15px);
+  color: #fff;
+  text-align: center;
+}
+
+#home {
+  padding: 60px 30px 80px;
+  background: linear-gradient(135deg, #2575fc, #6a11cb);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+#home h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #ffd600;
+  text-shadow: 0 0 10px #ffd600dd;
+}
+
+#home p {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #fff8;
+}
+
+#about, #contact {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#about p, #contact p {
+  max-width: 700px;
+  margin: 0 auto 20px;
+  color: #eaeaeacc;
+}
+
+#about .btn, #contact .btn {
+  margin-top: 10px;
+}
