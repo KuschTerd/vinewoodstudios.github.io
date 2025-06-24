@@ -64,6 +64,10 @@
   transform: translateX(-50%) translateY(-10px) scale(1.05);
 }
 
+.Leaders > div:Director::before {
+  transform: translateX(-50%) translateY(-10px) scale(1.05);
+}
+
 .Leaders h3 {
   margin-top: 200px;
   margin-bottom: 8px;
