@@ -60,9 +60,8 @@
   background: url('https://i.imgur.com/jGqBhRL.jpeg') no-repeat center/cover;
 }
 
-.Leaders > div:hover::before {
-  transform: translateX(-50%) translateY(-10px) scale(1.05);;
-}
+.Leaders > div.Graphics::before {
+  background: url('https://imgur.com/a/OdGkIWN.png') no-repeat center/cover;
 
 .Leaders h3 {
   margin-top: 200px;
