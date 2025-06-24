@@ -56,7 +56,7 @@
   background: url('https://i.imgur.com/yCffgMn.png') no-repeat center/cover;
 }
 
-.Leaders > div.Graphic.Designer::before {
+.Leaders > div.Graphic-Designer::before {
   background: url('https://i.imgur.com/D3zg4sJ.jpeg') no-repeat center/cover;
 }
 
