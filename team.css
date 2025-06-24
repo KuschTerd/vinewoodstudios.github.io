@@ -61,7 +61,7 @@
 }
 
 .Leaders > div:hover::before {
-  background: url('https://imgur.com/a/OdGkIWN') no-repeat center/cover;
+  transform: translateX(-50%) translateY(-10px) scale(1.05);;
 }
 
 .Leaders h3 {
