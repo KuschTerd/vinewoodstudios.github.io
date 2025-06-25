@@ -61,7 +61,7 @@
 }
 
 .Leaders > div.Director::before {
-  background: url('https://imgur.com/a/5kzT7dX.png') no-repeat center/cover;
+  background: url('https://imgur.com/5kzT7dX.png') no-repeat center/cover;
 }
 
 .Leaders > div:hover::before {
