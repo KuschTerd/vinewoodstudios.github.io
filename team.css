@@ -64,8 +64,8 @@
   transform: translateX(-50%) translateY(-10px) scale(1.05);
 }
 
-.Leaders > div.Graphics::before {
-  background: url('https://i.imgur.com/jGqBhRL.jpeg') no-repeat center/cover;
+.Leaders > div.Director::before {
+  background: url('https://imgur.com/a/5kzT7dX.png') no-repeat center/cover;
 }
 
 .Leaders h3 {
